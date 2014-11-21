@@ -63,12 +63,14 @@ div.pure-menu.pure-menu-open.menu-custom {
 }
 
 .second-block {
-	height: 19vh;
+	box-sizing: border-box;
+	height: 20vh;
 	padding: 0.1em;
 }
 
 .block-menu {
-	margin: 0.1em;
+	box-sizing: border-box;
+	border: 0.1em white solid;
 	height: 100%;
 	background-color: #f4f4f4;
 	text-align: center;
@@ -83,7 +85,7 @@ div.pure-menu.pure-menu-open.menu-custom {
 	margin: 0px;
 	color: #999;
 	font-weight: 400;
-	padding: 7.5vh 0px;
+	padding: 9vh 0px;
 }
 
 .third-block {
@@ -140,9 +142,4 @@ div.pure-menu.pure-menu-open.menu-custom {
 
 .block-menu-container {
 	height: 100%;
-}
-
-.margin-block {
-	height: 1vh;
-	width: 100;
 }
