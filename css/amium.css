@@ -1,0 +1,128 @@
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+div.pure-menu.pure-menu-open.menu-custom {
+	display: inline-block;
+	width: auto;
+	margin: auto;
+	padding-top: 0.4em;
+	padding-bottom: 0.4em;
+	background-color: rgba(0,0,0,0);
+}
+
+.pure-menu a, .pure-menu .pure-menu-can-have-children > li:after, .pure-menu .pure-menu-heading {
+	color: #eee;	
+}
+
+.pure-menu li a:hover, .pure-menu li a:focus {
+	color: #bbb;
+	background: inherit;
+}
+
+.menu-container {
+	position: absolute;
+	width: 100%;
+	top: 0px;
+	z-index: 10;
+	background-color: rgba(51, 51, 51, 0.25);
+}
+
+.content-center {
+	text-align: center;
+}
+
+.first-block {
+	position: relative;
+	background-image: url('../img/rocket.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 80% 0%;
+	height: 80vh;
+	width: 100%;
+}
+
+.first-block h1 {
+	margin: 0px;
+	padding-top: 37.5vh;
+	font-size: 5vh;
+	color: white;
+	font-weight: 400;
+}
+
+.second-block-alt {
+	display: none;
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	bottom: 0px;
+	font-size: 2em;
+	color: white;
+	background-color: rgba(51, 51, 51, 0.25);
+}
+
+.second-block {
+	height: 19vh;
+	padding: 0.1em;
+}
+
+.block-menu {
+	margin: 0.1em;
+	height: 100%;
+	background-color: #f4f4f4;
+	text-align: center;
+}
+
+.block-menu:hover {
+	background-color: #eee;
+}
+
+.block-menu h2 {
+	font-size: 2vh;
+	margin: 0px;
+	color: #999;
+	font-weight: 400;
+	padding: 7.5vh 0px;
+}
+
+@media screen and (max-height:32em)
+{
+	.first-block {
+		height: 100vh;
+	}
+	.second-block {
+		display: none;
+	}
+	.second-block-alt {
+		display: block;
+	}
+	div.pure-menu.pure-menu-open.menu-custom > ul {
+		display: none;
+	}
+}
+
+@media screen and (max-width:48em)
+{
+	.first-block {
+		height: 100vh;
+	}
+	.second-block {
+		display: none;
+	}
+	.second-block-alt {
+		display: block;
+	}
+	div.pure-menu.pure-menu-open.menu-custom > ul {
+		display: none;
+	}
+}
+
+.block-menu-container {
+	height: 100%;
+}
+
+.margin-block {
+	height: 1vh;
+	width: 100;
+}
