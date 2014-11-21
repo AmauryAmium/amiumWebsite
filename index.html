@@ -15,6 +15,8 @@
 	
 	<link rel="stylesheet" href="css/amium.css">
 
+	<script src="js/smooth-scroll.min.js"></script>
+
 </head>
 
 <body>
@@ -24,10 +26,10 @@
 			<a href="#" class="pure-menu-heading">Amium</a>
 
 			<ul>
-				<li><a href="#services">Services</a></li>
-				<li><a href="#">Réalisations</a></li>
-				<li><a href="#">Equipe</a></li>
-				<li><a href="#">Contact</a></li>
+				<li><a data-scroll href="#services">Services</a></li>
+				<li><a data-scroll href="#">Réalisations</a></li>
+				<li><a data-scroll href="#">Equipe</a></li>
+				<li><a data-scroll href="#">Contact</a></li>
 			</ul>
 		</div>
 	</div>
@@ -39,16 +41,16 @@
 	<div class="second-block">
 		<div class="pure-g block-menu-container">
 			<div class="pure-u-1-4 block-menu-container">
-				<div class="block-menu"><h2><i class="fa fa-cog"> Services</i></h2></div>
+				<a data-scroll href="#services"><div class="block-menu"><h2><i class="fa fa-cog"> Services</i></h2></div></a>
 			</div>
 			<div class="pure-u-1-4 block-menu-container">
-				<div class="block-menu"><h2><i class="fa fa-paint-brush"> Réalisations</i></h2></div>
+				<a data-scroll href="#"><div class="block-menu"><h2><i class="fa fa-paint-brush"> Réalisations</i></h2></div></a>
 			</div>
 			<div class="pure-u-1-4 block-menu-container">
-				<div class="block-menu"><h2><i class="fa fa-child"> Equipe</i></h2></div>
+				<a data-scroll href="#"><div class="block-menu"><h2><i class="fa fa-child"> Equipe</i></h2></div></a>
 			</div>
 			<div class="pure-u-1-4 block-menu-container">
-				<div class="block-menu"><h2><i class="fa fa-envelope"> Contact</i></h2></div>
+				<a data-scroll href="#"><div class="block-menu"><h2><i class="fa fa-envelope"> Contact</i></h2></div></a>
 			</div>
 		</div>
 	</div>
@@ -59,28 +61,22 @@
 
 	<div class="third-block" id="services">
 		<div class="pure-g">
-			<div class="pure-u-1-4">
+			<div class="pure-u-1-3 gray-one">
 				1
 			</div>
-			<div class="pure-u-1-4">
+			<div class="pure-u-2-3 gray-three">
 				2
-			</div>
-			<div class="pure-u-1-2">
-				3
 			</div>
 		</div>
 		<div class="pure-g">
-			<div class="pure-u-1-4">
+			<div class="pure-u-1-3 gray-two">
 				1
 			</div>
-			<div class="pure-u-1-4">
+			<div class="pure-u-1-3 gray-one">
 				2
 			</div>
-			<div class="pure-u-1-4">
+			<div class="pure-u-1-3 gray-two">
 				3
-			</div>
-			<div class="pure-u-1-4">
-				4
 			</div>
 		</div>
 	</div>
@@ -147,5 +143,7 @@
 		BLABLALBLALBLABLA<br />
 		BLABLALBLALBLABLA<br />
 	</div>
+
+	<script>smoothScroll.init();</script>
 </body>
 </html>

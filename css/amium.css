@@ -86,12 +86,24 @@ div.pure-menu.pure-menu-open.menu-custom {
 	padding: 7.5vh 0px;
 }
 
-.thid-block {
+.third-block {
 	height: 100vh;
 }
 
-.thid-block div, .thid-block div div {
+.third-block div, .third-block div div {
 	height: 50vh;
+}
+
+.gray-one {
+	background-color: #f4f4f4;
+}
+
+.gray-two {
+	background-color: #eee;
+}
+
+.gray-three {
+	background-color: #ddd;
 }
 
 @media screen and (max-height:32em)
