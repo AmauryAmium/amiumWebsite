@@ -88,12 +88,28 @@ div.pure-menu.pure-menu-open.menu-custom {
 	padding: 9vh 0px;
 }
 
-.third-block {
+.page-block {
 	height: 100vh;
 }
 
-.third-block div, .third-block div div {
+.half-block {
 	height: 50vh;
+}
+
+.half-block div {
+	height: 100%;
+}
+
+.full-block {
+	height: 100vh;
+}
+
+.full-block div {
+	height: 100%;
+}
+
+.page-block .half-block, .page-block .half-block div {
+	text-align: center;
 }
 
 .gray-one {
@@ -142,4 +158,22 @@ div.pure-menu.pure-menu-open.menu-custom {
 
 .block-menu-container {
 	height: 100%;
+}
+
+*:first-child.margin-border {
+	border-left: 4em white solid;
+	border-right: none;
+}
+
+*:last-child.margin-border {
+	border-right: 4em white solid;
+	border-left: none;
+}
+
+.margin-border {
+	box-sizing: border-box;
+	border-left: 2em white solid;
+	border-right: 2em white solid;
+	border-top: 4em white solid;
+	border-bottom: 4em white solid;
 }
