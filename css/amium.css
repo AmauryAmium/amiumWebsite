@@ -43,6 +43,16 @@ div.pure-menu.pure-menu-open.menu-custom {
 	width: 100%;
 }
 
+.amaury-block {
+	position: relative;
+	background-image: url('../img/amaury_app_ios.png');
+	background-repeat: no-repeat;
+	background-size: 25%;
+	background-position: 0% 0%;
+	height: 10vh;
+	width: 60vh;
+}
+
 .first-block h1 {
 	margin: 0px;
 	padding-top: 37.5vh;
