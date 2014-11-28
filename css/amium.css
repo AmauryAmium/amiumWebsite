@@ -61,6 +61,14 @@ div.pure-menu.pure-menu-open.menu-custom {
 	font-weight: 400;
 }
 
+.first-block h2 {
+	margin: 0px;
+	padding-top: 3vh;
+	font-size: 5vh;
+	color: white;
+	font-weight: 400;
+}
+
 .second-block-alt {
 	display: none;
 	position: absolute;
