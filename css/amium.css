@@ -101,6 +101,16 @@ div.pure-menu.pure-menu-open.menu-custom {
 
 @media screen and (max-height:28em)
 {
+	#services {
+		height: auto;
+	}
+	#services div div div:first-child * {
+		margin-left: 1rem;
+	}
+	#services div div div:last-child * {
+		margin-right: 1rem;
+	}
+
 	div.pure-menu.pure-menu-open.menu-custom > ul {
 		display: none;
 	}
@@ -108,6 +118,16 @@ div.pure-menu.pure-menu-open.menu-custom {
 
 @media screen and (max-width:48em)
 {
+	#services {
+		height: auto;
+	}
+	#services div div div:first-child * {
+		margin-left: 1rem;
+	}
+	#services div div div:last-child * {
+		margin-right: 1rem;
+	}
+
 	div.pure-menu.pure-menu-open.menu-custom > ul {
 		display: none;
 	}
