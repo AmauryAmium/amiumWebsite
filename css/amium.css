@@ -29,48 +29,37 @@ div.pure-menu.pure-menu-open.menu-custom {
 	background-color: rgba(51, 51, 51, 0.25);
 }
 
+.inner {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.page-block {
+	display: table;
+	height: 100vh;
+	width: 100%;
+	text-align: center;
+}
+
 .content-center {
 	text-align: center;
 }
 
-.first-block {
+#slogan {
 	position: relative;
 	background-image: url('../img/rocket.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: 80% 0%;
-	height: 80vh;
-	width: 100%;
 }
 
-.amaury-block {
-	position: relative;
-	background-image: url('../img/amaury_app_ios.png');
-	background-repeat: no-repeat;
-	background-size: 25%;
-	background-position: 0% 0%;
-	height: 10vh;
-	width: 60vh;
-}
-
-.first-block h1 {
+#slogan h1 {
 	margin: 0px;
-	padding-top: 37.5vh;
-	font-size: 5vh;
 	color: white;
 	font-weight: 400;
 }
 
-.first-block h2 {
-	margin: 0px;
-	padding-top: 3vh;
-	font-size: 5vh;
-	color: white;
-	font-weight: 400;
-}
-
-.second-block-alt {
-	display: none;
+#slogan-arrow-bottom {
 	position: absolute;
 	width: 100%;
 	text-align: center;
@@ -80,79 +69,25 @@ div.pure-menu.pure-menu-open.menu-custom {
 	background-color: rgba(51, 51, 51, 0.25);
 }
 
-.second-block {
-	box-sizing: border-box;
-	height: 20vh;
-	padding: 0.1em;
+#services {
+	background-color: #403739;
+	color: white;
 }
 
-.block-menu {
-	box-sizing: border-box;
-	border: 0.1em white solid;
-	height: 100%;
-	background-color: #f4f4f4;
-	text-align: center;
+#services h1, #services h2 {
+	color: #ead7b8;
 }
 
-.block-menu:hover {
-	background-color: #eee;
+#services h2 {
+	text-align: left;
+	font-weight: 500;
+	border-bottom: 1px solid #ead7b8;
+	margin: 1em;
+	padding-bottom: 0.5em;
 }
 
-.block-menu h2 {
-	font-size: 2vh;
-	margin: 0px;
-	color: #999;
-	font-weight: 400;
-	padding: 9vh 0px;
-}
-
-.page-block {
-	height: 100vh;
-}
-
-.half-block {
-	height: 50vh;
-}
-
-.half-block div {
-	height: 100%;
-}
-
-.full-block {
-	height: 100vh;
-}
-
-.full-block div {
-	height: 100%;
-}
-
-.page-block .half-block, .page-block .half-block div {
-	text-align: center;
-}
-
-.gray-one {
-	background-color: #f4f4f4;
-}
-
-.gray-two {
-	background-color: #eee;
-}
-
-.gray-three {
-	background-color: #ddd;
-}
-
-@media screen and (max-height:32em)
+@media screen and (max-height:28em)
 {
-	.first-block {
-		height: 100vh;
-	}
-	.second-block {
-		display: none;
-	}
-	.second-block-alt {
-		display: block;
-	}
 	div.pure-menu.pure-menu-open.menu-custom > ul {
 		display: none;
 	}
@@ -160,38 +95,7 @@ div.pure-menu.pure-menu-open.menu-custom {
 
 @media screen and (max-width:48em)
 {
-	.first-block {
-		height: 100vh;
-	}
-	.second-block {
-		display: none;
-	}
-	.second-block-alt {
-		display: block;
-	}
 	div.pure-menu.pure-menu-open.menu-custom > ul {
 		display: none;
 	}
-}
-
-.block-menu-container {
-	height: 100%;
-}
-
-*:first-child.margin-border {
-	border-left: 4em white solid;
-	border-right: none;
-}
-
-*:last-child.margin-border {
-	border-right: 4em white solid;
-	border-left: none;
-}
-
-.margin-border {
-	box-sizing: border-box;
-	border-left: 2em white solid;
-	border-right: 2em white solid;
-	border-top: 4em white solid;
-	border-bottom: 4em white solid;
 }
