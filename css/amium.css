@@ -71,7 +71,7 @@ div.pure-menu.pure-menu-open.menu-custom {
 
 #services {
 	background-color: #403739;
-	color: white;
+	color: #ddd;
 }
 
 #services h1, #services h2 {
@@ -82,8 +82,21 @@ div.pure-menu.pure-menu-open.menu-custom {
 	text-align: left;
 	font-weight: 500;
 	border-bottom: 1px solid #ead7b8;
-	margin: 1em;
+	margin: 1rem;
 	padding-bottom: 0.5em;
+}
+
+#services div div div:first-child * {
+	margin-left: 2rem;
+}
+
+#services div div div:last-child * {
+	margin-right: 2rem;
+}
+
+#services p {
+	margin: 0rem 1rem;
+	text-align: left;
 }
 
 @media screen and (max-height:28em)
