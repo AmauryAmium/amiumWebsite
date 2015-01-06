@@ -3,6 +3,10 @@ body {
 	padding: 0px;
 }
 
+div {
+	box-sizing: border-box;
+}
+
 div.pure-menu.pure-menu-open.menu-custom {
 	display: inline-block;
 	width: auto;
@@ -41,6 +45,10 @@ div.pure-menu.pure-menu-open.menu-custom {
 	text-align: center;
 }
 
+.child-center {
+	display: table;
+}
+
 .content-center {
 	text-align: center;
 }
@@ -57,6 +65,7 @@ div.pure-menu.pure-menu-open.menu-custom {
 	margin: 0px;
 	color: white;
 	font-weight: 400;
+	font-size: 2.4em;
 }
 
 #slogan-arrow-bottom {
@@ -91,6 +100,32 @@ div.pure-menu.pure-menu-open.menu-custom {
 	text-align: left;
 }
 
+#realisations {
+	background-color: #fdfdfa;
+}
+
+#realisations div {
+	display: block;
+	height: 40vh;
+	width: 100%;
+}
+
+#realisations h1 {
+	color: #403739;
+}
+
+div#carousel {
+	height: 60vh;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	background-color: #fafafa;
+}
+
+#realisations * img {
+	max-height: 100%;
+	width: auto;
+}
+
 @media screen and (max-height:28em)
 {
 	#services {
@@ -107,12 +142,6 @@ div.pure-menu.pure-menu-open.menu-custom {
 	#services {
 		height: auto;
 		padding: 2rem 0rem;
-	}
-	#services div div div:first-child * {
-		margin-left: 1rem;
-	}
-	#services div div div:last-child * {
-		margin-right: 1rem;
 	}
 
 	div.pure-menu.pure-menu-open.menu-custom > ul {
