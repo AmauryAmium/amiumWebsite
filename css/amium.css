@@ -86,14 +86,6 @@ div.pure-menu.pure-menu-open.menu-custom {
 	padding-bottom: 0.5em;
 }
 
-#services div div div:first-child * {
-	margin-left: 2rem;
-}
-
-#services div div div:last-child * {
-	margin-right: 2rem;
-}
-
 #services p {
 	margin: 0rem 1rem;
 	text-align: left;
@@ -103,12 +95,6 @@ div.pure-menu.pure-menu-open.menu-custom {
 {
 	#services {
 		height: auto;
-	}
-	#services div div div:first-child * {
-		margin-left: 1rem;
-	}
-	#services div div div:last-child * {
-		margin-right: 1rem;
 	}
 
 	div.pure-menu.pure-menu-open.menu-custom > ul {
